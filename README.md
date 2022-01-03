@@ -75,7 +75,7 @@ with missing data.
 It is verified for each observation with missing data which the
 nearest neighbor, and is measured with the distance as the following:
 
-!(equation)[https://github.com/AlbertoRodrigues/methods_missing_data/blob/main/images/ex1.png]
+![equation](https://github.com/AlbertoRodrigues/methods_missing_data/blob/main/images/ex1.png)
 
 Then it can be used from the k closest neighbors to
 median of the variable with missing data or an average
