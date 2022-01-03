@@ -75,8 +75,12 @@ with missing data.
 It is verified for each observation with missing data which the
 nearest neighbor, and is measured with the distance as the following:
 
-!(equation)[https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20d(%5Ctextbf%7Bx,y%7D)=%20%5Csqrt%7B%5Csum_%7Bi=1%7D%5E%7Bp-a%7D%5Cdelta_%7Bi%7D(x_%7Bi%7D,y_%7Bi%7D)%7D%5C%5C%5Ctext%7Bwhere%20%7D%5Cdelta_i=%20%5Cbegin%7Bcases%7D1%20&%20%5Ctext%7B%20if%20both%20variables%20are%20categorical%20and%20%7D%20x_%7Bi%7D=y_%7Bi%7D%20%20%5C%5C%200%20&%20%5Ctext%7B%20if%20both%20variables%20are%20categorical%20and%20%7D%20x_%7Bi%7D%20%5Cneq%20y_%7Bi%7D%20%5C%5C%20(x_%7Bi%7D-y_%7Bi%7D)%5E2%20&%20%5Ctext%7B%20if%20both%20variables%20are%20numeric%7D%5Cend%7Bcases%7D]
+!(equation)[]
 
+Then it can be used from the k closest neighbors to
+median of the variable with missing data or an average
+weighted by the exponential kernel function
 
+## Predictive Mean Matching Method
 
 
