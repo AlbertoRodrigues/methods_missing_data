@@ -1,4 +1,4 @@
-# Methods for handling missing data
+# Methods to handle with missing data
 
 This project aims to demonstrate some data pre-processing techniques when we have a missing data problem. The techniques presented were used in real data.
 
@@ -83,4 +83,4 @@ weighted by the exponential kernel function
 
 ## Predictive Mean Matching Method
 
-
+Method that uses multiple linear regression, k nearest neighbors and the regression estimator to estimate missing data.
