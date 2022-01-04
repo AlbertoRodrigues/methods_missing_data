@@ -84,3 +84,6 @@ weighted by the exponential kernel function
 ## Predictive Mean Matching Method
 
 Method that uses multiple linear regression, k nearest neighbors and the regression estimator to estimate missing data.
+
+
+# The notebook jupyter used to apply all these techniques is [here](https://github.com/AlbertoRodrigues/methods_missing_data/blob/main/methods_missing_data.ipynb)
